@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TUNG CHEN — Design Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-line" id="progressLine"></div>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="logo" data-jump="top">TUNG CHEN</a>
+    <nav class="menu" id="menu">
+      <ul>
+        <li><a href="#about" data-jump="about">ABOUT</a></li>
+        <li class="has-sub" id="worksNavItem">
+          <a href="#works" data-jump="works" id="worksNavLink">WORKS <span class="caret">▾</span></a>
+          <ul class="submenu">
+            <li><a href="#works" data-jump="works" id="subAll">All Works</a></li>
+            <li><a href="#work-photo" data-jump="work-photo" id="subPhoto">Photography</a></li>
+            <li><a href="#work-motion" data-jump="work-motion" id="subMotion">Motion Design</a></li>
+            <li><a href="#work-visual" data-jump="work-visual" id="subVisual">Visual Design</a></li>
+            <li><a href="#work-interactive" data-jump="work-interactive" id="subInteractive">Interactive Design</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button class="lang-toggle" id="langToggle">EN</button>
+      <button class="menu-toggle" id="menuToggle" aria-label="開啟選單">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="wrap hero-inner">
+    <p class="eyebrow">DESIGNER / TAIPEI</p>
+    <h1><span id="heroName">陳禹彤</span></h1>
+    <p class="hero-desc" id="heroDesc">
+      專注於動態影像、攝影與視覺設計，將想法轉譯為清晰、可被理解的視覺語言。
+    </p>
+  </div>
+  <div class="wrap hero-meta">
+    <span>PORTFOLIO 2021 — 2026</span>
+    <span class="scroll-cue"><span class="dot"></span><span id="heroScrollCue">向下捲動探索</span></span>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="section-index">01 — INTRO</span>
+      <h2>ABOUT</h2>
+    </div>
+
+    <div class="about-grid reveal">
+      <div class="portrait">
+        <span class="portrait-label">PORTRAIT / 請替換為個人照片</span>
+      </div>
+
+      <div>
+        <div class="about-bio">
+          <p id="aboutBioP1"><strong>我是陳禹彤</strong>，畢業於北藝大新媒體藝術學系。2022至2023年間赴德國斯圖加特高等設計學院進行交換學程，期間專注於攝影與紀實影像創作與研究，拓展影像敘事的實作經驗。交換期間獲得臺灣教育部「學海飛颺」獎學金，以及德國巴登-符騰堡州（Baden-Württemberg）獎學金支持。具數年接案經驗，作品範疇涵蓋平面設計、影像製作與專案管理，具備整合視覺設計與影像敘事的實務能力。</p>
+          <p id="aboutBioP2">行銷及設計工作經驗近三年。我以行銷思維為核心進行設計與專案執行，擅長將品牌與產品需求轉化為具體且有效的視覺溝通。具備產品攝影與影音後製背景，有助於UI與產品視覺的一致性管理，並可撰寫 HTML / CSS，具前端基礎開發能力，過去曾參與遊戲與互動程式開發過程。熟悉Adobe系列軟體與專案管理流程，具備跨行銷及設計部門，及不同領域協作經驗，熟悉與業主溝通的流程，並持續保持開放的心態，積極尋找新的合作或職涯機會。</p>
+          <p id="aboutBioP3"></p>
+        </div>
+
+        <div class="skills">
+          <span class="skill-chip" id="chipPhoto">攝影</span>
+          <span class="skill-chip" id="chipMotion">動態影像設計</span>
+          <span class="skill-chip" id="chipVisual">視覺設計</span>
+        </div>
+
+        <!-- 學歷 EDUCATIONAL BACKGROUND -->
+        <div class="subsection-head">
+          <span class="zh">學歷</span><span class="en">EDUCATIONAL BACKGROUND</span>
+        </div>
+        <div class="timeline">
+          <div class="timeline-row">
+            <span class="year">2022–2023</span>
+            <div>
+              <div class="title-zh">Merz Akademie Stuttgart, Germany（交換學程）</div>
+              <div class="title-en">Merz Akademie Stuttgart, Germany — Exchange Program</div>
+            </div>
+          </div>
+          <div class="timeline-row">
+            <span class="year">2018–2023</span>
+            <div>
+              <div class="title-zh">臺北藝術大學　新媒體藝術學系，科技組</div>
+              <div class="title-en">Taipei National University of the Arts, Dept. of New Media Art</div>
+            </div>
+          </div>
+          <div class="timeline-row">
+            <span class="year">2015–2018</span>
+            <div>
+              <div class="title-zh">臺北市立第一女子高級中學</div>
+              <div class="title-en">Taipei First Girls High School</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 工作經歷 WORK EXPERIENCES -->
+        <div class="subsection-head">
+          <span class="zh">工作經歷</span><span class="en">WORK EXPERIENCES</span>
+        </div>
+        <div class="timeline">
+          <div class="timeline-row">
+            <span class="year">2023–2026</span>
+            <div>
+              <div class="title-zh">誠廣國際有限公司｜行銷設計</div>
+              <div class="title-en">Marketing Designer — CHIEFTEC</div>
+            </div>
+          </div>
+          <div class="timeline-row">
+            <span class="year">2021</span>
+            <div>
+              <div class="title-zh">臺北數位藝術中心｜臺北數位藝術節專案實習生</div>
+              <div class="title-en">Intern, 2021 Taipei Digital Art Festival — Digital Art Center Taipei</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 專長 SKILLS -->
+        <div class="subsection-head">
+          <span class="zh">專長</span><span class="en">SKILLS</span>
+        </div>
+        <div class="skill-groups">
+          <div class="skill-group">
+            <h4 id="skillGroup1Title">Adobe系列軟體</h4>
+            <ol>
+              <li id="skill1-1">影像後製處理：Photoshop / Lightroom CC</li>
+              <li id="skill1-2">印刷排版設計：Illustrator / InDesign</li>
+              <li id="skill1-3">影音特效、MG動畫：Premiere Pro、After Effects</li>
+            </ol>
+          </div>
+          <div class="skill-group">
+            <h4 id="skillGroup2Title">Unity 3D</h4>
+            <ol>
+              <li id="skill2-1">具遊戲開發經驗，執行過的專案包含單機單人遊戲，以及多人互動遊戲</li>
+              <li id="skill2-2">曾共同執行過大型專案，具兩年以上開發經驗</li>
+              <li id="skill2-3">擅長UI設計</li>
+            </ol>
+          </div>
+          <div class="skill-group">
+            <h4 id="skillGroup3Title">DaVinci Resolve</h4>
+            <ol>
+              <li id="skill3-1">熟悉 DaVinci Resolve 進行影像專案剪輯，能有效規劃與執行專案流程</li>
+              <li id="skill3-2">完成作品類型涵蓋產品宣傳影片、廣告投放素材及音樂影片（Music Video）</li>
+              <li id="skill3-3">能從概念發想到成片製作，整合剪輯、特效、色彩校正與品牌呈現</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WORKS ================= -->
+<section id="works">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="section-index">02 — SELECTED</span>
+      <h2>WORKS</h2>
+    </div>
+
+    <div class="jump-nav reveal">
+      <button class="filter-btn active" data-jump="work-photo" id="filterPhoto">Photography</button>
+      <button class="filter-btn" data-jump="work-motion" id="filterMotion">Motion Design</button>
+      <button class="filter-btn" data-jump="work-visual" id="filterVisual">Visual Design</button>
+      <button class="filter-btn" data-jump="work-interactive" id="filterInteractive">Interactive Design</button>
+    </div>
+
+    <div id="worksCategories"><!-- 由 JS 依 projectsData 自動產生 --></div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <span class="footer-brand">TUNG CHEN</span>
+      <div class="footer-links">
+        <a href="mailto:yoo911107@gmail.com">yoo911107@gmail.com</a>
+        <a href="https://www.instagram.com/tung.chen_/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.behance.net/yoo9111076a04" target="_blank" rel="noopener">Behance</a>
+      </div>
+      <span class="footer-copy">© 2026 Tung Chen Design. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="回到頂部">↑</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+gsap.registerPlugin(ScrollTrigger);
+
+/* =====================================================
+   0. 語言狀態
+   ===================================================== */
+let currentLang = 'zh';
+
+const translations = {
+  zh: {
+    heroName: '陳禹彤',
+    heroDesc: '專注於動態影像、攝影與視覺設計，將想法轉譯為清晰、可被理解的視覺語言。',
+    heroScrollCue: '向下捲動探索',
+    aboutBioP1: '<strong>我是陳禹彤</strong>，畢業於北藝大新媒體藝術學系。2022至2023年間赴德國斯圖加特高等設計學院進行交換學程，期間專注於攝影與紀實影像創作與研究，拓展影像敘事的實作經驗。交換期間獲得臺灣教育部「學海飛颺」獎學金，以及德國巴登-符騰堡州（Baden-Württemberg）獎學金支持。具數年接案經驗，作品範疇涵蓋平面設計、影像製作與專案管理，具備整合視覺設計與影像敘事的實務能力。',
+    aboutBioP2: '行銷及設計工作經驗近三年。我以行銷思維為核心進行設計與專案執行，擅長將品牌與產品需求轉化為具體且有效的視覺溝通。具備產品攝影與影音後製背景，有助於UI與產品視覺的一致性管理，並可撰寫 HTML / CSS，具前端基礎開發能力，過去曾參與遊戲與互動程式開發過程。熟悉Adobe系列軟體與專案管理流程，具備跨行銷及設計部門，及不同領域協作經驗，熟悉與業主溝通的流程，並持續保持開放的心態，積極尋找新的合作或職涯機會。',
+    aboutBioP3: '',
+    skillGroup1Title:'Adobe系列軟體', skillGroup2Title:'Unity 3D', skillGroup3Title:'DaVinci Resolve',
+    skill1:['影像後製處理：Photoshop / Lightroom CC','印刷排版設計：Illustrator / InDesign','影音特效、MG動畫：Premiere Pro、After Effects'],
+    skill2:['具遊戲開發經驗，執行過的專案包含單機單人遊戲，以及多人互動遊戲','曾共同執行過大型專案，具兩年以上開發經驗','擅長UI設計'],
+    skill3:['熟悉 DaVinci Resolve 進行影像專案剪輯，能有效規劃與執行專案流程','完成作品類型涵蓋產品宣傳影片、廣告投放素材及音樂影片（Music Video）','能從概念發想到成片製作，整合剪輯、特效、色彩校正與品牌呈現'],
+    jumpAll:'全部', jumpAllFull:'全部作品',
+    countSuffix: n => `${n} 件作品`,
+    comingSoon:'尚無作品，敬請期待',
+    langBtn:'EN'
+  },
+  en: {
+    heroName: 'Chen Yu-Tung',
+    heroDesc: 'Focused on motion, photography, and visual design — translating ideas into a visual language that\u2019s clear and easy to understand.',
+    heroScrollCue: 'Scroll to explore',
+    aboutBioP1: '<strong>I\u2019m Yutung Chen</strong>, a visual designer born in Taipei in 1999. I graduated from the Department of New Media Art at Taipei National University of the Arts. From 2022 to 2023, I participated in an exchange program at Merz Akademie in Stuttgart, Germany, where I focused on photography and documentary filmmaking. During my exchange, I received support from the Taiwan Ministry of Education\u2019s Study Abroad Scholarship Program and a scholarship from the state of Baden-W\u00fcrttemberg, Germany.',
+    aboutBioP2: 'Since my university years, I have built several years of freelance experience across graphic design, animation, and video production. My projects have included print production, creating exhibition recap videos for nonprofit organizations, and producing animated educational videos for the Department of Chemistry at National Taiwan Normal University. These experiences strengthened my communication and problem-solving skills, while teaching me how to understand clients\u2019 needs, translate their ideas into visual outcomes, and deliver projects effectively within a given timeframe.',
+    aboutBioP3: 'Since entering the professional field, I have developed a marketing-oriented approach to design and project execution, translating brand and product needs into clear and effective visual communication. I am proficient in Adobe Creative Cloud and experienced in project management and cross-functional collaboration. With an open and adaptable mindset, I am always looking for new opportunities where I can contribute my expertise, take on new challenges, and continue to grow professionally.',
+    skillGroup1Title:'Adobe Creative Suite', skillGroup2Title:'Unity 3D', skillGroup3Title:'DaVinci Resolve',
+    skill1:['Image post-production: Photoshop / Lightroom CC','Print & layout design: Illustrator / InDesign','Video effects & motion graphics: Premiere Pro, After Effects'],
+    skill2:['Game development experience, including single-player and multiplayer interactive projects','Co-led large-scale projects, with 2+ years of development experience','Skilled in UI design'],
+    skill3:['Experienced editing projects in DaVinci Resolve, able to plan and run production workflows effectively','Delivered work spanning product promo videos, ad campaign assets, and music videos','Able to take a project from concept to final cut, integrating editing, effects, color grading, and brand presentation'],
+    jumpAll:'All', jumpAllFull:'All Works',
+    countSuffix: n => `${n} Projects`,
+    comingSoon:'More projects coming soon',
+    langBtn:'中文'
+  }
+};
+
+/* =====================================================
+   1. 分類與專案資料 — 請替換成你自己的作品內容與圖片
+   ===================================================== */
+const categoryOrder = [
+  { key:'photo',       label:'攝影',       labelEn:'Photography' },
+  { key:'motion',      label:'動態影像設計', labelEn:'Motion Design' },
+  { key:'visual',      label:'視覺設計',    labelEn:'Visual Design' },
+  { key:'interactive', label:'互動設計',    labelEn:'Interactive Design' },
+];
+
+const projectsData = [
+  { id:1, category:'motion', title:'一九年的春末', client:'個人創作', year:'2021', visual:'v13',
+    cover:'assets/covers/spring-2019.jpg',
+    desc:'一九年的春末，我參加了外公的喪禮，有感而發，製作了這支短片。',
+    descEn:'In the late spring of 2019, I attended my grandfather\u2019s funeral. Deeply moved by the experience, I created this short film.',
+    link:'https://www.behance.net/gallery/123963295/-That-Spring-in-2019' },
+
+  { id:2, category:'motion', title:'TAIWAN E.L.F. UNION 應援企劃｜片頭動畫設計', client:'TAIWAN E.L.F. UNION', year:'2024–2025', visual:'v14',
+    cover:'assets/covers/twelf-motion.jpg',
+    desc:'收錄我於 2024 年及 2025 年為 TAIWAN E.L.F. UNION 應援企劃製作的兩支片頭動畫，透過動態設計延伸各企劃的主視覺概念，作為影片的開場。',
+    descEn:'This project showcases two opening animations created for TAIWAN E.L.F. UNION\u2019s fan support campaigns in 2024 and 2025. Each animation extends the campaign\u2019s visual identity into motion, serving as the opening sequence for its promotional video.',
+    link:'https://www.behance.net/gallery/252396141/TAIWAN-ELF-UNION-Opening-Animation' },
+
+  { id:3, category:'motion', title:'SUPER SHOW 10 in Kaohsiung Campaign 漢神巨蛋應援企劃', client:'漢神巨蛋應援企劃', year:'2026', visual:'v15',
+    cover:'assets/covers/ss10-motion.jpg',
+    desc:'為 SUPER JUNIOR 20週年活動以及演唱會《SUPER SHOW 10》製作社群與數位廣告宣傳素材。使用既有 MV 片段進行再編輯，製作多支短版宣傳影片。',
+    descEn:'Developed digital campaign assets and social media content for SUPER JUNIOR\u2019s 20th Anniversary campaign and SUPER SHOW 10. Building upon the album\u2019s visual identity, footage from the title track music video and official visual assets were repurposed into a series of short-form promotional videos, increasing campaign visibility and audience engagement across digital platforms.',
+    link:'https://www.behance.net/gallery/251893485/SUPER-SHOW-10-in-Kaohsiung-Campaign-' },
+
+  { id:4, category:'photo', title:'The Common', client:'The Common', year:'2020–2021',
+    cover:'assets/covers/the-common.jpg',
+    desc:'The Common 是一間在臺北公館的不限時咖啡廳。我於2020至2021年與店家進行長期合作，負責為店家做行銷攝影及商品攝影。',
+    descEn:'I have been working with The Common on a long-term photography project from 2020 to 2021. During that time, I was responsible for marketing and merchandising photography for the stores.',
+    link:'https://www.behance.net/gallery/123935387/The-Common' },
+
+  { id:5, category:'photo', title:'TAIWAN E.L.F. UNION — SS10集資感謝禮拍攝', client:'TAIWAN E.L.F. UNION', year:'2025',
+    cover:'assets/covers/ss10-photo.jpg',
+    desc:'於2025年為TAIWAN E.L.F. UNION拍攝的集資感謝禮形象照片，透過構圖、光線與色彩呈現設計紋理及角色IP的特色，並完成色彩校正與後期影像處理。',
+    descEn:'Photographed the appreciation gifts created for TAIWAN E.L.F. UNION\u2019s 2025 fan support project. Through composition and lighting, the photographs highlight the packaging details and original IP character design, followed by color correction and post-processing to achieve a consistent visual style.',
+    link:null },
+
+  { id:6, category:'interactive', title:'ZOE', client:'個人創作', year:'2022', visual:'v1',
+    cover:'assets/covers/zoe.jpg',
+    desc:'「Zoe」為一場互動式實驗劇場，旨在深度探索數位世界將如何形塑、甚至衝擊我們的未來。',
+    descEn:'"Zoe" is an interactive experimental theater project that delves into how the digital realm will shape and profoundly impact our future.',
+    link:'https://www.behance.net/gallery/169987171/Zoe' },
+
+  { id:7, category:'interactive', title:'好運動 Good Exercise', client:'個人創作', year:'2019', visual:'v4',
+    cover:'assets/covers/haoyundong.jpg',
+    desc:'以2019關渡光藝術節「壞運動」為主題而延伸出的互動創作。',
+    descEn:'An interactive game developed based on the exhibition "Moving me badly," 2019 Guandu Art Light Festival.',
+    link:'https://www.behance.net/gallery/123139173/-Good-Exercise' },
+];
+
+/* =====================================================
+   2. 依分類渲染 WORKS 區塊（每次重繪都直接綁定動畫，
+      避免語言切換後小標題因舊 ScrollTrigger 失效而消失）
+   ===================================================== */
+const worksContainer = document.getElementById('worksCategories');
+
+function renderWorks(){
+  const t = translations[currentLang];
+
+  worksContainer.innerHTML = '';
+  // 清掉指向已被移除節點的舊 ScrollTrigger，避免累積或指向失效元素
+  ScrollTrigger.getAll().forEach(st => {
+    if(st.trigger && !document.body.contains(st.trigger)) st.kill();
+  });
+
+  categoryOrder.forEach((cat, catIndex) => {
+    const items = projectsData.filter(p => p.category === cat.key);
+    const label = currentLang === 'zh' ? cat.label : cat.labelEn;
+
+    const section = document.createElement('div');
+    section.className = 'work-category';
+    section.id = 'work-' + cat.key;
+
+    const cardsHtml = items.length ? items.map(p => {
+      const hasPhoto = !!p.cover;
+      const visualClass = hasPhoto ? 'has-photo' : p.visual;
+      const visualInner = hasPhoto
+        ? `<img src="${p.cover}" alt="${p.title}" loading="lazy">`
+        : '';
+      const intro = currentLang === 'zh' ? p.desc : p.descEn;
+      const tag = p.link ? 'a' : 'div';
+      const linkAttrs = p.link ? `href="${p.link}" target="_blank" rel="noopener"` : '';
+
+      return `
+      <${tag} class="work-card${p.link ? '' : ' no-link'}" ${linkAttrs}>
+        <div class="work-visual ${visualClass}">
+          ${visualInner}
+          <div class="work-intro"><p>${intro}</p></div>
+        </div>
+        <div class="work-info">
+          <h3>${p.title}</h3>
+          <p>${p.client} — ${p.year}</p>
+        </div>
+      </${tag}>
+    `;
+    }).join('') : '';
+
+    section.innerHTML = `
+      <div class="work-cat-head">
+        <span class="cat-index">${String(catIndex + 1).padStart(2,'0')}</span>
+        <h3>${label}</h3>
+        <span class="cat-count">${t.countSuffix(items.length)}</span>
+      </div>
+      ${items.length
+        ? `<div class="work-grid">${cardsHtml}</div>`
+        : `<div class="work-empty">${t.comingSoon}</div>`}
+    `;
+
+    worksContainer.appendChild(section);
+  });
+
+  // 每次重繪都直接建立新的滾動出現動畫，確保語言切換後仍會正常顯示
+  worksContainer.querySelectorAll('.work-cat-head, .work-card').forEach(el => {
+    gsap.fromTo(el,
+      { opacity:0, y:26 },
+      { opacity:1, y:0, duration:.7, ease:'power2.out',
+        scrollTrigger:{ trigger: el, start:'top 90%' } }
+    );
+  });
+}
+
+/* =====================================================
+   3. 靜態文字的中英切換
+   ===================================================== */
+function applyLanguage(lang){
+  currentLang = lang;
+  const t = translations[lang];
+  document.documentElement.lang = (lang === 'zh') ? 'zh-Hant' : 'en';
+
+  document.getElementById('heroName').textContent = t.heroName;
+  document.getElementById('heroDesc').textContent = t.heroDesc;
+  document.getElementById('heroScrollCue').textContent = t.heroScrollCue;
+  document.getElementById('aboutBioP1').innerHTML = t.aboutBioP1;
+  document.getElementById('aboutBioP2').textContent = t.aboutBioP2;
+  const bioP3 = document.getElementById('aboutBioP3');
+  bioP3.textContent = t.aboutBioP3;
+  bioP3.style.display = t.aboutBioP3 ? 'block' : 'none';
+
+  const catByKey = k => categoryOrder.find(c => c.key === k);
+  const catLabel = k => lang==='zh' ? catByKey(k).label : catByKey(k).labelEn;
+  document.getElementById('chipPhoto').textContent  = catLabel('photo');
+  document.getElementById('chipMotion').textContent = catLabel('motion');
+  document.getElementById('chipVisual').textContent = catLabel('visual');
+
+  document.getElementById('skillGroup1Title').textContent = t.skillGroup1Title;
+  document.getElementById('skillGroup2Title').textContent = t.skillGroup2Title;
+  document.getElementById('skillGroup3Title').textContent = t.skillGroup3Title;
+  ['skill1-1','skill1-2','skill1-3'].forEach((id,i) => document.getElementById(id).textContent = t.skill1[i]);
+  ['skill2-1','skill2-2','skill2-3'].forEach((id,i) => document.getElementById(id).textContent = t.skill2[i]);
+  ['skill3-1','skill3-2','skill3-3'].forEach((id,i) => document.getElementById(id).textContent = t.skill3[i]);
+
+  document.getElementById('filterPhoto').textContent       = catLabel('photo');
+  document.getElementById('filterMotion').textContent      = catLabel('motion');
+  document.getElementById('filterVisual').textContent      = catLabel('visual');
+  document.getElementById('filterInteractive').textContent = catLabel('interactive');
+
+  document.getElementById('subAll').textContent = t.jumpAllFull;
+  document.getElementById('subPhoto').textContent       = catLabel('photo');
+  document.getElementById('subMotion').textContent      = catLabel('motion');
+  document.getElementById('subVisual').textContent      = catLabel('visual');
+  document.getElementById('subInteractive').textContent = catLabel('interactive');
+
+  document.getElementById('langToggle').textContent = t.langBtn;
+
+  renderWorks();
+}
+
+document.getElementById('langToggle').addEventListener('click', () => {
+  applyLanguage(currentLang === 'zh' ? 'en' : 'zh');
+});
+
+/* =====================================================
+   4. 導覽列：捲動跳轉
+   ===================================================== */
+function getComputedNavHeight(){
+  return document.querySelector('header.nav').offsetHeight + 16;
+}
+function scrollToTarget(id){
+  let targetY = 0;
+  if(id !== 'top'){
+    const target = document.getElementById(id);
+    if(!target) return;
+    targetY = target.getBoundingClientRect().top + window.scrollY - getComputedNavHeight();
+  }
+  const scrollProxy = { y: window.scrollY };
+  gsap.to(scrollProxy, {
+    y: Math.max(targetY, 0),
+    duration: 1,
+    ease: 'power2.inOut',
+    onUpdate: () => window.scrollTo(0, scrollProxy.y)
+  });
+}
+
+document.addEventListener('click', (e) => {
+  const el = e.target.closest('[data-jump]');
+  if(!el) return;
+  e.preventDefault();
+  const id = el.dataset.jump;
+
+  const isMobile = window.innerWidth <= 860;
+  if(isMobile && el.id === 'worksNavLink'){
+    document.getElementById('worksNavItem').classList.toggle('open');
+    return;
+  }
+
+  scrollToTarget(id);
+  closeMobileMenu();
+
+  if(el.classList.contains('filter-btn')){
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    el.classList.add('active');
+  }
+});
+
+/* =====================================================
+   5. 手機選單開關
+   ===================================================== */
+const menu = document.getElementById('menu');
+const menuToggle = document.getElementById('menuToggle');
+let menuOpen = false;
+
+menuToggle.addEventListener('click', () => {
+  menuOpen = !menuOpen;
+  gsap.to(menu, { maxHeight: menuOpen ? 420 : 0, duration: menuOpen ? .35 : .3, ease: menuOpen ? 'power2.out' : 'power2.in' });
+});
+function closeMobileMenu(){
+  if(window.innerWidth <= 860 && menuOpen){
+    menuOpen = false;
+    gsap.to(menu, { maxHeight: 0, duration:.3, ease:'power2.in' });
+    document.getElementById('worksNavItem').classList.remove('open');
+  }
+}
+
+/* =====================================================
+   6. 目前所在區塊高亮
+   ===================================================== */
+const navLinks = document.querySelectorAll('nav.menu > ul > li > a[data-jump]');
+['about','works'].forEach(id => {
+  const sec = document.getElementById(id);
+  if(!sec) return;
+  ScrollTrigger.create({
+    trigger: sec,
+    start: 'top center',
+    end: 'bottom center',
+    onToggle: self => {
+      if(self.isActive){
+        navLinks.forEach(l => l.classList.remove('active'));
+        const link = document.querySelector(`nav.menu > ul > li > a[data-jump="${id}"]`);
+        if(link) link.classList.add('active');
+      }
+    }
+  });
+});
+
+/* =====================================================
+   7. 捲動進度條（隨頁面前進 / 後退雙向更新）+ 回到頂部
+   ===================================================== */
+const progressLine = document.getElementById('progressLine');
+ScrollTrigger.create({
+  trigger: document.body,
+  start: 'top top',
+  end: 'bottom bottom',
+  onUpdate: self => gsap.set(progressLine, { scaleX: self.progress })
+});
+
+const backTop = document.getElementById('backTop');
+ScrollTrigger.create({
+  start: 600,
+  end: 99999,
+  onUpdate: self => backTop.classList.toggle('show', self.scroll() > 600)
+});
+backTop.addEventListener('click', () => scrollToTarget('top'));
+
+/* =====================================================
+   8. 靜態區塊的滾動出現動畫（僅載入一次的區塊）
+   ===================================================== */
+gsap.utils.toArray('.reveal').forEach(el => {
+  gsap.fromTo(el,
+    { opacity:0, y:26 },
+    { opacity:1, y:0, duration:.8, ease:'power2.out',
+      visibility:'visible',
+      scrollTrigger:{ trigger: el, start:'top 88%' } }
+  );
+});
+
+// 避免字型非同步載入造成版面位移，讓 ScrollTrigger 抓錯觸發位置
+if(document.fonts && document.fonts.ready){
+  document.fonts.ready.then(() => ScrollTrigger.refresh());
+}
+
+/* =====================================================
+   9. 初始化：套用預設語言（中文），確保選單、篩選按鈕等
+      靜態文字在頁面載入當下就與內容語言一致
+   ===================================================== */
+applyLanguage('zh');
+</script>
+
+</body>
+</html>
