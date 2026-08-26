@@ -18,11 +18,10 @@
     <a href="#top" class="logo" data-jump="top">TUNG CHEN</a>
     <nav class="menu" id="menu">
       <ul>
-        <li><a href="#about" data-jump="about">ABOUT</a></li>
+        <li><a href="#about" data-jump="about">INFO</a></li>
         <li class="has-sub" id="worksNavItem">
           <a href="#works" data-jump="works" id="worksNavLink">WORKS <span class="caret">▾</span></a>
           <ul class="submenu">
-            <li><a href="#works" data-jump="works" id="subAll">All Works</a></li>
             <li><a href="#work-photo" data-jump="work-photo" id="subPhoto">Photography</a></li>
             <li><a href="#work-motion" data-jump="work-motion" id="subMotion">Motion Design</a></li>
             <li><a href="#work-visual" data-jump="work-visual" id="subVisual">Visual Design</a></li>
@@ -42,15 +41,15 @@
 
 <!-- ================= HERO ================= -->
 <section class="hero" id="top">
-  <div class="wrap hero-inner">
-    <p class="eyebrow">DESIGNER / TAIPEI</p>
-    <h1><span id="heroName">陳禹彤</span></h1>
-    <p class="hero-desc" id="heroDesc">
+  <div class="wrap hero-inner" id="heroInner">
+    <p class="eyebrow" data-parallax="18">DESIGNER / TAIPEI</p>
+    <h1 data-parallax="34"><span id="heroName">陳禹彤</span></h1>
+    <p class="hero-desc" id="heroDesc" data-parallax="12">
       專注於動態影像、攝影與視覺設計，將想法轉譯為清晰、可被理解的視覺語言。
     </p>
   </div>
   <div class="wrap hero-meta">
-    <span>PORTFOLIO 2021 — 2026</span>
+    <span>PORTFOLIO 2019 — 2026</span>
     <span class="scroll-cue"><span class="dot"></span><span id="heroScrollCue">向下捲動探索</span></span>
   </div>
 </section>
@@ -60,17 +59,17 @@
   <div class="wrap">
     <div class="section-head reveal">
       <span class="section-index">01 — INTRO</span>
-      <h2>ABOUT</h2>
+      <h2>INFO</h2>
     </div>
 
     <div class="about-grid reveal">
       <div class="portrait">
-        <span class="portrait-label">PORTRAIT / 請替換為個人照片</span>
+        <img class="portrait-photo" src="assets/about/photo-1.jpg" alt="陳禹彤">
       </div>
 
       <div>
         <div class="about-bio">
-          <p id="aboutBioP1"><strong>我是陳禹彤</strong>，畢業於北藝大新媒體藝術學系。2022至2023年間赴德國斯圖加特高等設計學院進行交換學程，期間專注於攝影與紀實影像創作與研究，拓展影像敘事的實作經驗。交換期間獲得臺灣教育部「學海飛颺」獎學金，以及德國巴登-符騰堡州（Baden-Württemberg）獎學金支持。具數年接案經驗，作品範疇涵蓋平面設計、影像製作與專案管理，具備整合視覺設計與影像敘事的實務能力。</p>
+          <p id="aboutBioP1">我是<strong>陳禹彤</strong>，畢業於北藝大新媒體藝術學系。2022至2023年間赴德國斯圖加特高等設計學院進行交換學程，期間專注於攝影與紀實影像創作與研究，拓展影像敘事的實作經驗。交換期間獲得臺灣教育部「學海飛颺」獎學金，以及德國巴登-符騰堡州（Baden-Württemberg）獎學金支持。具數年接案經驗，作品範疇涵蓋平面設計、影像製作與專案管理，具備整合視覺設計與影像敘事的實務能力。</p>
           <p id="aboutBioP2">行銷及設計工作經驗近三年。我以行銷思維為核心進行設計與專案執行，擅長將品牌與產品需求轉化為具體且有效的視覺溝通。具備產品攝影與影音後製背景，有助於UI與產品視覺的一致性管理，並可撰寫 HTML / CSS，具前端基礎開發能力，過去曾參與遊戲與互動程式開發過程。熟悉Adobe系列軟體與專案管理流程，具備跨行銷及設計部門，及不同領域協作經驗，熟悉與業主溝通的流程，並持續保持開放的心態，積極尋找新的合作或職涯機會。</p>
           <p id="aboutBioP3"></p>
         </div>
@@ -79,6 +78,7 @@
           <span class="skill-chip" id="chipPhoto">攝影</span>
           <span class="skill-chip" id="chipMotion">動態影像設計</span>
           <span class="skill-chip" id="chipVisual">視覺設計</span>
+          <span class="skill-chip" id="chipUiux">UI/UX設計</span>
         </div>
 
         <!-- 學歷 EDUCATIONAL BACKGROUND -->
@@ -193,6 +193,7 @@
         <a href="mailto:yoo911107@gmail.com">yoo911107@gmail.com</a>
         <a href="https://www.instagram.com/tung.chen_/" target="_blank" rel="noopener">Instagram</a>
         <a href="https://www.behance.net/yoo9111076a04" target="_blank" rel="noopener">Behance</a>
+        <a href="https://www.linkedin.com/in/yutung-chen-bb5080273/" target="_blank" rel="noopener">LinkedIn</a>
       </div>
       <span class="footer-copy">© 2026 Tung Chen Design. All rights reserved.</span>
     </div>
@@ -216,14 +217,14 @@ const translations = {
     heroName: '陳禹彤',
     heroDesc: '專注於動態影像、攝影與視覺設計，將想法轉譯為清晰、可被理解的視覺語言。',
     heroScrollCue: '向下捲動探索',
-    aboutBioP1: '<strong>我是陳禹彤</strong>，畢業於北藝大新媒體藝術學系。2022至2023年間赴德國斯圖加特高等設計學院進行交換學程，期間專注於攝影與紀實影像創作與研究，拓展影像敘事的實作經驗。交換期間獲得臺灣教育部「學海飛颺」獎學金，以及德國巴登-符騰堡州（Baden-Württemberg）獎學金支持。具數年接案經驗，作品範疇涵蓋平面設計、影像製作與專案管理，具備整合視覺設計與影像敘事的實務能力。',
+    aboutBioP1: '我是<strong>陳禹彤</strong>，畢業於北藝大新媒體藝術學系。2022至2023年間赴德國斯圖加特高等設計學院進行交換學程，期間專注於攝影與紀實影像創作與研究，拓展影像敘事的實作經驗。交換期間獲得臺灣教育部「學海飛颺」獎學金，以及德國巴登-符騰堡州（Baden-Württemberg）獎學金支持。具數年接案經驗，作品範疇涵蓋平面設計、影像製作與專案管理，具備整合視覺設計與影像敘事的實務能力。',
     aboutBioP2: '行銷及設計工作經驗近三年。我以行銷思維為核心進行設計與專案執行，擅長將品牌與產品需求轉化為具體且有效的視覺溝通。具備產品攝影與影音後製背景，有助於UI與產品視覺的一致性管理，並可撰寫 HTML / CSS，具前端基礎開發能力，過去曾參與遊戲與互動程式開發過程。熟悉Adobe系列軟體與專案管理流程，具備跨行銷及設計部門，及不同領域協作經驗，熟悉與業主溝通的流程，並持續保持開放的心態，積極尋找新的合作或職涯機會。',
     aboutBioP3: '',
     skillGroup1Title:'Adobe系列軟體', skillGroup2Title:'Unity 3D', skillGroup3Title:'DaVinci Resolve',
+    uiuxChip:'UI/UX設計',
     skill1:['影像後製處理：Photoshop / Lightroom CC','印刷排版設計：Illustrator / InDesign','影音特效、MG動畫：Premiere Pro、After Effects'],
     skill2:['具遊戲開發經驗，執行過的專案包含單機單人遊戲，以及多人互動遊戲','曾共同執行過大型專案，具兩年以上開發經驗','擅長UI設計'],
     skill3:['熟悉 DaVinci Resolve 進行影像專案剪輯，能有效規劃與執行專案流程','完成作品類型涵蓋產品宣傳影片、廣告投放素材及音樂影片（Music Video）','能從概念發想到成片製作，整合剪輯、特效、色彩校正與品牌呈現'],
-    jumpAll:'全部', jumpAllFull:'全部作品',
     countSuffix: n => `${n} 件作品`,
     comingSoon:'尚無作品，敬請期待',
     langBtn:'EN'
@@ -236,10 +237,10 @@ const translations = {
     aboutBioP2: 'Since my university years, I have built several years of freelance experience across graphic design, animation, and video production. My projects have included print production, creating exhibition recap videos for nonprofit organizations, and producing animated educational videos for the Department of Chemistry at National Taiwan Normal University. These experiences strengthened my communication and problem-solving skills, while teaching me how to understand clients\u2019 needs, translate their ideas into visual outcomes, and deliver projects effectively within a given timeframe.',
     aboutBioP3: 'Since entering the professional field, I have developed a marketing-oriented approach to design and project execution, translating brand and product needs into clear and effective visual communication. I am proficient in Adobe Creative Cloud and experienced in project management and cross-functional collaboration. With an open and adaptable mindset, I am always looking for new opportunities where I can contribute my expertise, take on new challenges, and continue to grow professionally.',
     skillGroup1Title:'Adobe Creative Suite', skillGroup2Title:'Unity 3D', skillGroup3Title:'DaVinci Resolve',
+    uiuxChip:'UI/UX Design',
     skill1:['Image post-production: Photoshop / Lightroom CC','Print & layout design: Illustrator / InDesign','Video effects & motion graphics: Premiere Pro, After Effects'],
     skill2:['Game development experience, including single-player and multiplayer interactive projects','Co-led large-scale projects, with 2+ years of development experience','Skilled in UI design'],
     skill3:['Experienced editing projects in DaVinci Resolve, able to plan and run production workflows effectively','Delivered work spanning product promo videos, ad campaign assets, and music videos','Able to take a project from concept to final cut, integrating editing, effects, color grading, and brand presentation'],
-    jumpAll:'All', jumpAllFull:'All Works',
     countSuffix: n => `${n} Projects`,
     comingSoon:'More projects coming soon',
     langBtn:'中文'
@@ -285,7 +286,7 @@ const projectsData = [
     cover:'assets/covers/ss10-photo.jpg',
     desc:'於2025年為TAIWAN E.L.F. UNION拍攝的集資感謝禮形象照片，透過構圖、光線與色彩呈現設計紋理及角色IP的特色，並完成色彩校正與後期影像處理。',
     descEn:'Photographed the appreciation gifts created for TAIWAN E.L.F. UNION\u2019s 2025 fan support project. Through composition and lighting, the photographs highlight the packaging details and original IP character design, followed by color correction and post-processing to achieve a consistent visual style.',
-    link:null },
+    link:'https://www.behance.net/gallery/254819141/TAIWAN-ELF-UNION-SS10' },
 
   { id:6, category:'interactive', title:'ZOE', client:'個人創作', year:'2022', visual:'v1',
     cover:'assets/covers/zoe.jpg',
@@ -298,6 +299,24 @@ const projectsData = [
     desc:'以2019關渡光藝術節「壞運動」為主題而延伸出的互動創作。',
     descEn:'An interactive game developed based on the exhibition "Moving me badly," 2019 Guandu Art Light Festival.',
     link:'https://www.behance.net/gallery/123139173/-Good-Exercise' },
+
+  { id:8, category:'visual', title:'2025 Lunar New Year - Greeting card design', client:'個人創作', year:'2025',
+    cover:'assets/covers/greeting-card.jpg',
+    desc:'為迎接 2025 農曆新年所創作的插畫賀卡，採用 Risograph 孔版印刷，呈現獨特的手感溫度與質地。',
+    descEn:'An illustrated greeting card designed for the 2025 Lunar New Year, brought to life through the unique textures of Risograph printing.',
+    link:'https://www.behance.net/gallery/254820013/2025-Lunar-New-Year-Greeting-Card-Design' },
+
+  { id:9, category:'motion', title:'Showreel · 2023', client:'個人作品', year:'2023', visual:'v13',
+    cover:'assets/covers/showreel-2023.jpg',
+    desc:'2019至2023年間，陳禹彤所創作過的作品剪輯，其中包含互動影像裝置、遊戲設計，以及2D、3D動畫創作等等類別。',
+    descEn:'It is a portfolio reel which contains some of Yu-Tung Chen\u2019s artworks from 2019 to 2023. It includes interactive video installation, game design, and both 2D, 3D animation.',
+    link:'https://www.behance.net/gallery/170067625/Portfolio-reel-2023' },
+
+  { id:10, category:'motion', title:"TWELF 'TWELF25' Music Video", client:'TAIWAN E.L.F. UNION', year:'2025', visual:'v14',
+    cover:'assets/covers/twelf25-mv.jpg',
+    desc:'為慶祝 SUPER JUNIOR 出道 20 週年，TAIWAN E.L.F. UNION 特別製作了紀念單曲《TWELF25》。我受邀負責此專案的影像製作，從視覺腳本規劃，到實際拍攝與後期剪輯皆由我統籌完成。',
+    descEn:'Commissioned by TAIWAN E.L.F. UNION to produce the music video for the SUPER JUNIOR 20th-anniversary tribute single \u201cTWELF25\u201d; directed the end-to-end visual production, including script planning, cinematography, and post-production editing.',
+    link:'https://www.youtube.com/watch?v=GaclCZGVs7I' },
 ];
 
 /* =====================================================
@@ -305,6 +324,11 @@ const projectsData = [
       避免語言切換後小標題因舊 ScrollTrigger 失效而消失）
    ===================================================== */
 const worksContainer = document.getElementById('worksCategories');
+
+function yearSortKey(yearStr){
+  const matches = yearStr.match(/\d{4}/g);
+  return matches ? parseInt(matches[matches.length - 1], 10) : 0;
+}
 
 function renderWorks(){
   const t = translations[currentLang];
@@ -316,7 +340,9 @@ function renderWorks(){
   });
 
   categoryOrder.forEach((cat, catIndex) => {
-    const items = projectsData.filter(p => p.category === cat.key);
+    const items = projectsData
+      .filter(p => p.category === cat.key)
+      .sort((a, b) => yearSortKey(b.year) - yearSortKey(a.year));
     const label = currentLang === 'zh' ? cat.label : cat.labelEn;
 
     const section = document.createElement('div');
@@ -393,6 +419,7 @@ function applyLanguage(lang){
   document.getElementById('chipPhoto').textContent  = catLabel('photo');
   document.getElementById('chipMotion').textContent = catLabel('motion');
   document.getElementById('chipVisual').textContent = catLabel('visual');
+  document.getElementById('chipUiux').textContent = t.uiuxChip;
 
   document.getElementById('skillGroup1Title').textContent = t.skillGroup1Title;
   document.getElementById('skillGroup2Title').textContent = t.skillGroup2Title;
@@ -406,7 +433,6 @@ function applyLanguage(lang){
   document.getElementById('filterVisual').textContent      = catLabel('visual');
   document.getElementById('filterInteractive').textContent = catLabel('interactive');
 
-  document.getElementById('subAll').textContent = t.jumpAllFull;
   document.getElementById('subPhoto').textContent       = catLabel('photo');
   document.getElementById('subMotion').textContent      = catLabel('motion');
   document.getElementById('subVisual').textContent      = catLabel('visual');
@@ -539,6 +565,43 @@ gsap.utils.toArray('.reveal').forEach(el => {
 if(document.fonts && document.fonts.ready){
   document.fonts.ready.then(() => ScrollTrigger.refresh());
 }
+
+/* =====================================================
+   Hero 滑鼠互動：游標經過時文字會有微幅的跟隨位移
+   ===================================================== */
+(function initHeroParallax(){
+  const heroSection = document.getElementById('top');
+  const heroInner = document.getElementById('heroInner');
+  if(!heroSection || !heroInner) return;
+
+  const items = Array.from(heroInner.querySelectorAll('[data-parallax]')).map(el => ({
+    el,
+    strength: parseFloat(el.dataset.parallax) || 20,
+    move: gsap.quickTo(el, 'x', { duration: 0.9, ease: 'power3.out' }),
+    moveY: gsap.quickTo(el, 'y', { duration: 0.9, ease: 'power3.out' })
+  }));
+
+  const isFinePointer = window.matchMedia('(pointer: fine)').matches;
+  if(!isFinePointer) return; // 觸控裝置不套用滑鼠互動
+
+  heroSection.addEventListener('mousemove', (e) => {
+    const rect = heroSection.getBoundingClientRect();
+    const relX = (e.clientX - rect.left) / rect.width - 0.5;   // -0.5 ~ 0.5
+    const relY = (e.clientY - rect.top) / rect.height - 0.5;
+
+    items.forEach(item => {
+      item.move(relX * item.strength);
+      item.moveY(relY * item.strength * 0.6);
+    });
+  });
+
+  heroSection.addEventListener('mouseleave', () => {
+    items.forEach(item => {
+      item.move(0);
+      item.moveY(0);
+    });
+  });
+})();
 
 /* =====================================================
    9. 初始化：套用預設語言（中文），確保選單、篩選按鈕等
